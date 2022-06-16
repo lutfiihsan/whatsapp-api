@@ -20,7 +20,7 @@ Method : POST
 	"number": "0828282933",
 	"message": "asdasd https://niandev.com",
 	"type": "text"
-} 
+}
 ```
 
 ## send Buttons
@@ -79,3 +79,6 @@ Method : POST
 	]
 }
 ```
+
+## Dukung Kami
+Kamu dapat mendukung kami melalui [DONASI] (./DONATE.md). Terima kasih.
