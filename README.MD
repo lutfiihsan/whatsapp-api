@@ -1,20 +1,30 @@
-# CARA MENGGUNAKAN
+# Instalasi
+- Node Js
+- NPM
+
+# Cara Menjalankan
+
+``` npm install ```
+``` node app.js ```
+
+# Cara Menggunakan
 
 URL : localhost:3000/send-message
-Methode : POST
+
+Method : POST
 
 ## send text
-
+```json
 {
 	"key": "123aasd213aaaaaa",
 	"number": "0828282933",
 	"message": "asdasd https://niandev.com",
 	"type": "text"
-	]
-}
+} 
+```
 
 ## send Buttons
-
+```json
 {
 	"key": "123aasd213aaaaaa",
 	"number": "0828282933",
@@ -24,8 +34,10 @@ Methode : POST
 		{"id": "nada", "text":"ini button"}
 	]
 }
+````
 
 ## Send Template Button
+```json
 {
 	"key": "123aasd213aaaaaa",
 	"message": "asdasd",
@@ -36,9 +48,10 @@ Methode : POST
 		{"type": "call", "text":"hubungi kami", "number":"0828282933"}
 	]
 }
+```
 
 ## Send List
-
+```json
 {
 	"key": "123aasd213aaaaaa",
 	"message": "asdasd",
@@ -65,3 +78,4 @@ Methode : POST
 		}
 	]
 }
+```
