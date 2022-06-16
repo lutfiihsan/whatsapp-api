@@ -13,6 +13,8 @@ URL : localhost:3000/send-message
 
 Method : POST
 
+key : 123aasd213aaaaaa //Gunakan key ini
+
 ## send text
 ```json
 {
