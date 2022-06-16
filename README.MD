@@ -81,4 +81,4 @@ Method : POST
 ```
 
 ## Dukung Kami
-Kamu dapat mendukung kami melalui [DONASI] (./DONATE.md). Terima kasih.
+Kamu dapat mendukung kami melalui [DONASI](./DONATE.md). Terima kasih.
