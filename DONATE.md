@@ -12,3 +12,12 @@ Donasi yang teman-teman berikan akan disalurkan sepenuhnya melalui lembaga amil 
 Jangan sungkan untuk whatsapp ke (https://wa.me/6282139395691). Misal ingin melakukan konfirmasi terkait dukungan yang diberikan atau hal lainnya.
 
 Terima kasih.
+
+
+# DAFTAR DONASI
+No | Tanggal | Donatur | Nominal
+--- | --- | --- | ---|
+
+# DAFTAR PENYALURAN
+No|Tanggal|Nominal|Penyaluran
+--- | --- | --- | ---|
