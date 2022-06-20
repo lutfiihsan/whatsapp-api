@@ -10,6 +10,7 @@ const sock = makeWASocket({
     logger: P({ level: 'fatal' }),
     printQRInTerminal: true,
     auth: state,
+    browser: ["WANIAN Multi Device", "MacOS", "3.0"] //custom agent name
 });
 
 
