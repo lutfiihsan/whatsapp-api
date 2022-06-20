@@ -84,3 +84,7 @@ key : 123aasd213aaaaaa //Gunakan key ini
 
 ## Dukung Kami
 Kamu dapat mendukung kami melalui [DONASI](./DONATE.md). Terima kasih.
+
+
+## Fitur Selanjutnya
+- [ ] Multi Session
