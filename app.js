@@ -4,7 +4,7 @@ const makeWASocket = require('@adiwajshing/baileys').default;
 const qrcode = require('qrcode-terminal');
 const { MessageType, MessageOptions, Mimetype }  = require('@adiwajshing/baileys')
 
-const { state, saveState } = useSingleFileAuthState('./auth/auth.json')
+const { state, saveState } = useSingleFileAuthState('./auth.json')
 
 const sock = makeWASocket({
     logger: P({ level: 'fatal' }),
