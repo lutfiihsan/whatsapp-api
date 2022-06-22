@@ -86,6 +86,14 @@ app.post('/send-message', async (req, res) => {
     const extraOptions = req.body.option;
     const buttons =[];
 
+    const [result] = await sock.onWhatsApp(number)
+    if(result === undefined){
+        return res.status(200).json({
+                status: true,
+                response: "Your Number not Register on WhatsApp"
+            });
+    }
+
     let msg;
     switch(type) {
         case 'text':
@@ -148,8 +156,6 @@ app.post('/send-message', async (req, res) => {
                         title: values.text,
                         rows: row
                 })
-
-        console.log(row)
             })
 
 
@@ -160,8 +166,6 @@ app.post('/send-message', async (req, res) => {
               buttonText: req.body.buttontext,
               sections
             }
-
-        console.log(listMessage)
             msg = listMessage
             break;
 
