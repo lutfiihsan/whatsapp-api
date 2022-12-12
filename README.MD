@@ -1,4 +1,4 @@
-# Instalasi
+# Instalation
 - Node Js
 - NPM
 
@@ -84,7 +84,7 @@ key : 123aasd213aaaaaa //Gunakan key ini
 
 ## Dukung Kami
 Kamu dapat mendukung kami melalui [DONASI](./DONATE.md). Terima kasih.
-
+You can support us through [DONATION](./DONATE.md) Thank you
 
 ## Fitur Selanjutnya
 - [ ] Multi Session
